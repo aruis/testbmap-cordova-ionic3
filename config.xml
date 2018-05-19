@@ -81,4 +81,11 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="1.1.19" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="2.0.5" />
+    <allow-navigation href="http://192.168.1.100:8100" />
+    <plugin name="cordova-plugin-baidumaplocation" spec="/Users/liurui/develop/workspace-study/cordova-plugin-baidumaplocation">
+        <variable name="ANDROID_KEY" value="6zI9M2L2Ay2kABDQHmNcbXCVvgcGhNCW" />
+        <variable name="IOS_KEY" value="nkKWKKhE3iLk6mToydvRpxCaIIMATCSL" />
+        <variable name="IOS_LOCATION_DESC" value="请点击'好'以允许访问。" />
+    </plugin>
+    <engine name="ios" spec="~4.5.4" />
 </widget>
